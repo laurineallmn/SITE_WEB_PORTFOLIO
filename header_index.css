@@ -1,0 +1,121 @@
+.titre {
+    text-align: center;
+}
+
+p {
+    font-size: 1vw;
+    font-family: Montserrat, Helvetica;
+    color: rgb(255, 238, 226);
+}
+
+a {
+    text-decoration: none;
+    font-family: Montserrat, Helvetica;
+}
+
+
+/* HEADER */
+
+header {
+    position: sticky;
+    /* position: -webkit-sticky; */
+    top: 0;
+    order: 2;
+}
+
+.header-container {
+    display: flex;
+    order: 2;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(27, 27, 27);
+    /* rgba(0, 0, 0, 0.2); opacity: 4; */
+    padding: 1vw;
+    /* flex-direction: row; */
+    box-shadow: 0px 5px 10px rgba(39, 39, 39, 0.767);
+}
+
+.projets-menu {
+    /* padding-left: 40vw; */
+    margin-left: 35vw;
+    margin-right: 0vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.projets-menu a {
+    font-size: 1.vw;
+}
+
+.themes-menu {
+    color: rgb(224, 215, 199);
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1vw;
+}
+
+#accueil:hover {
+    color: rgb(255, 149, 11);
+    font-size: 1.02vw;
+    transition: 0.4s;
+}
+
+#audiovisuel:hover {
+    color: rgb(206, 112, 209);
+    font-size: 1.02vw;
+    transition: 0.4s;
+}
+
+#photographie:hover {
+    color: rgb(46, 173, 190);
+    font-size: 1.02vw;
+    transition: 0.4s;
+}
+
+
+/* Menu deroulant */
+
+.cv p {
+    font-size: 1vw;
+    color: rgb(49, 47, 44);
+}
+
+.cv {
+    background-color: rgb(235, 210, 164);
+    border-radius: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    margin-left: 0vw;
+    margin-right: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cv:hover {
+    background-color: orange;
+    transition: 0.8s;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    .header-container {
+        padding: 1vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .projets-menu {
+        margin-left: 25vw;
+        margin-right: 0vw;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .themes-menu {
+        font-size: 1.8vw;
+    }
+    .cv {
+        font-size: 1.8vw;
+        margin: auto;
+    }
+}

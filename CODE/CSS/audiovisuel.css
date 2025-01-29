@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(30, 30, 30, 1);
+}
+
+.titre {
+    text-align: center;
+    margin: 3vw;
+    color: bisque;
+}
+
+
+/* intercalaire, sommaire */
+
+.page-sommaire {
+    display: flex;
+    /* background-color: rgb(144, 144, 144); */
+    width: 80vw;
+    padding: 1vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page-sommaire p {
+    color: #000;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.page-sommaire p:hover {
+    cursor: pointer;
+    /* font-weight: bold; */
+    transition: all .5s
+}
+
+#bouton-tout {
+    font-weight: bold;
+}
+
+.audiovisuel-projects-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.audiovisuel-projects-container p {
+    color: #000;
+}
+
+
+/*on met tout-page de cote car on aterit en premier sur cette page*/
+
+.tout-page {
+    /* background-color: rgb(144, 144, 144); */
+    background-color: rgb(191, 167, 197);
+    /* border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; */
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px rgb(19, 19, 19);
+}
+
+.court-metrage-page,
+.clip-page,
+.motion-design-page,
+.entreprise-page {
+    background-color: rgb(144, 144, 144);
+    /* border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; */
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px rgb(19, 19, 19);
+}
+
+
+/* containers */
+
+
+/* .audiovisuel-projects-container>div {
+    padding: 1vw;
+} */
+
+.contenu-tout-projets {
+    display: flex;
+    background-color: rgb(163, 149, 167);
+    border-radius: 1rem;
+    width: 66vw;
+    padding: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+.contenu-motion-design-projets,
+.contenu-court-metrage-projets,
+.contenu-clip-projets,
+.contenu-entreprise-projets {
+    display: none;
+    background-color: rgb(163, 149, 167);
+    border-radius: 1rem;
+    width: 66vw;
+    padding: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+.audiovisuel-projects-container img:hover {
+    /* width: 90%; */
+    opacity: 0.5;
+    transition: all .5s;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-area: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* flex-direction: row; */
+    /* margin-top: 3vw; */
+    margin: 2vw;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    margin: 2vw;
+}
+
+
+/* img {
+    width: 40%;
+} */
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}

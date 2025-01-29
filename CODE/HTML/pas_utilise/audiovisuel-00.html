@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="./Audiovisuel.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./footer.css" />
+</head>
+
+<body>
+
+    <div class="titre">
+        <h1>AUDIOVISUEL</h1>
+        <h2>LAURINE ALLEMON</h2>
+    </div>
+
+    <div class="audiovisuel-projects-container">
+        <div class="page-sommaire">
+
+            <div class="tout-page" id="tout-page">
+                <p>Tout</p>
+            </div>
+            <div class="court-metrage-page" id="court-metrage-page">
+                <p>Court-Métrages</p>
+            </div>
+            <div class="clip-page" id="clip-page">
+                <p>Clips</p>
+            </div>
+            <div class="publicite-page" id="publicite-page">
+                <p id="bouton-publicite" onclick="onClickPub()">Publicité</p>
+            </div>
+        </div>
+
+        <div class="contenu-tout-page" id="contenu-tout-page">
+            <div class="projet-1">
+                <p>lolllllllllllllllllllllllllllllllllllllllll</p>
+                <video autoplay loop muted>  <!--controls si on veut pourvor faire pause-->
+                    <source src="../CREATIONS/Audiovisuel/2024/danse_et_tel.mp4#t=00:01:19,00:01:27" type="video/mp4">
+                    <!--on utilise le Media Fragment #t-->
+                    Votre navigateur ne supporte pas ce format de vidéo.
+                    </video>
+            </div>
+            <div class="projet-2" id="projet-2">
+                <video width="320" height="240" autoplay muted>  <!--controls si on veut pourvor faire pause  & loop & poster-->
+                                        <source src="../CREATIONS/Audiovisuel/2024/animation_papirusse_tribuns_02_acceleree_1_422.mov" type="video/mp4">
+                                        Votre navigateur ne supporte pas ce format de vidéo.
+                                    </video>
+            </div>
+        </div>
+
+
+        <div class="contenu-publicite-projets" id="contenu-publicite-projets">
+            <div class="projet-1">
+                <p>displayyyyyy nonnnnnneee</p>
+                <video autoplay loop muted>  <!--controls si on veut pourvor faire pause-->
+                                        <source src="../CREATIONS/Audiovisuel/2024/danse_et_tel.mp4#t=00:01:19,00:01:27" type="video/mp4">  <!--on utilise le Media Fragment #t-->
+                                        Votre navigateur ne supporte pas ce format de vidéo.
+                                    </video>
+            </div>
+            <div class="projet-2" id="projet-2">
+                <video width="320" height="240" autoplay muted>  <!--controls si on veut pourvor faire pause  & loop & poster-->
+                                        <source src="../CREATIONS/Audiovisuel/2024/animation_papirusse_tribuns_02_acceleree_1_422.mov" type="video/mp4">
+                                        Votre navigateur ne supporte pas ce format de vidéo.
+                                    </video>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const tout = document.getElementById('tout-page');
+        const toutContenu = document.getElementById('contenu-tout-page');
+        const publicite = document.getElementById('bouton-publicite');
+        const publiciteContenu = document.getElementById('contenu-publicite-projets');
+        const clip = document.getElementById('clip-page');
+        const clipContenu = document.getElementById('contenu-clip-projets');
+        const courtMetrage = document.getElementById('court-metrage-page');
+        const courtMetrageContenu = document.getElementById('contenu-court-metrage-projets');
+
+        function onClickTout() {
+            toutContenu.style.display = "none";
+            publiciteContenu.style.display = "flex"; /*mettre en z index */
+            publicite.style.background = "rgb(82, 149, 151)"; /*bleu*/
+            tout.style.background = "rgb(144, 144, 144)";
+        }
+
+        function onClickCM() {
+            toutContenu.style.display = "none";
+            publiciteContenu.style.display = "flex"; /*mettre en z index */
+            publicite.style.background = "rgb(82, 149, 151)"; /*bleu*/
+            tout.style.background = "rgb(144, 144, 144)";
+        }
+
+
+        function onClickClip() {
+            toutContenu.style.display = "none";
+            publiciteContenu.style.display = "flex"; /*mettre en z index */
+            publicite.style.background = "rgb(82, 149, 151)"; /*bleu*/
+            tout.style.background = "rgb(144, 144, 144)";
+        }
+
+        function onClickPub() {
+            toutContenu.style.display = "none";
+            publiciteContenu.style.display = "flex"; /*mettre en z index */
+            publicite.style.background = "rgb(82, 149, 151)"; /*bleu*/
+            tout.style.background = "rgb(144, 144, 144)";
+        }
+    </script>
+
+</body>
+
+
+</html>

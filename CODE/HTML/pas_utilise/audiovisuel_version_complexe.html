@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="../../CSS/pas_utilise/audiovisuel_version_complexe.css" />
+    <link rel="stylesheet" href="../../CSS/header.css" />
+    <link rel="stylesheet" href="../../CSS/footer.css" />
+    <script src="../../JS/audiovisuel.js"></script>
+</head>
+
+<body>
+    <script src="../../JS/header.js"></script>
+
+
+    <div class="titre">
+        <h1>AUDIOVISUEL</h1>
+    </div>
+
+    <div class="audiovisuel-projects-container">
+        <div class="page-sommaire">
+
+            <div class="tout-page" id="tout-page">
+                <p id="bouton-tout" onclick="onClick('tout')">Tout</p>
+            </div>
+            <div class="clip-page" id="clip-page">
+                <p id="bouton-clip" onclick="onClick('clip')">Clips</p>
+            </div>
+            <div class="court-metrage-page" id="court-metrage-page">
+                <p id="bouton-court-metrage" onclick="onClick('court-metrage')">Court-Métrages</p>
+            </div>
+            <div class="motion-design-page" id="motion-design-page">
+                <p id="bouton-motion-design" onclick="onClick('motion-design')">Motion Design</p>
+            </div>
+        </div>
+
+        <div class="contenu-tout-projets" id="contenu-tout-projets">
+            <div class="projet-1">
+                <p>lolllllllllllllllllllllllllllllllllllllllll</p>
+                <img id="poster-1" onmouseover="playVideo('video-1','poster-1')" onmouseout="pauseVideo('video-1','poster-1')" src="../Poster/Poster_Derniere_Danse.png" alt="Poster_Derniere_Danse">
+                <video id="video-1" loop muted>   <!--pour remmetrre video a zero this.currentTime=0;--> <!--controls si on veut pourvor faire pause  ET playsinlinepour le tel-->
+                    <source src="../../CREATIONS/Audiovisuel/2024/danse_et_tel.mp4#t=00:01:19,00:01:27" type="video/mp4">  <!--on utilise le Media Fragment #t-->
+                    Votre navigateur ne supporte pas ce format de vidéo.
+                </video>
+            </div>
+            <!-- <div class="projet-2" id="projet-2">
+                <video autoplay muted>  
+                    <source src="../CREATIONS/Audiovisuel/2024/animation_papirusse_tribuns_02_acceleree_1_422.mov" type="video/mp4">
+                    Votre navigateur ne supporte pas ce format de vidéo.
+                </video>
+            </div> -->
+        </div>
+
+
+
+        <div class="contenu-clip-projets" id="contenu-clip-projets">
+            <div class="projet-1">
+                <p>clipppp bitchiiesssss</p>
+                <video onmouseover="this.play()" onmouseout="this.pause();" loop muted>  <!--controls si on veut pourvor faire pause-->
+                    <source src="../../CREATIONS/Audiovisuel/2024/danse_et_tel.mp4#t=00:01:19,00:01:27" type="video/mp4">  <!--on utilise le Media Fragment #t-->
+                    Votre navigateur ne supporte pas ce format de vidéo.
+                </video>
+            </div>
+            <div class="projet-2" id="projet-2">
+                <video autoplay muted>  <!--controls si on veut pourvor faire pause  & loop & poster-->
+                    <source src="../../CREATIONS/Audiovisuel/2024/animation_papirusse_tribuns_02_acceleree_1_422.mov" type="video/mp4">
+                    Votre navigateur ne supporte pas ce format de vidéo.
+                </video>
+            </div>
+        </div>
+
+        <div class="contenu-motion-design-projets" id="contenu-motion-design-projets">
+            <div class="projet-1">
+                <p> motion displayyyyyy nonnnnnneee</p>
+                <video onmouseover="this.play()" onmouseout="this.pause();" loop muted>  <!--controls si on veut pourvor faire pause-->
+                    <source src="../../CREATIONS/Audiovisuel/2024/danse_et_tel.mp4#t=00:01:19,00:01:27" type="video/mp4">  <!--on utilise le Media Fragment #t-->
+                    Votre navigateur ne supporte pas ce format de vidéo.
+                </video>
+            </div>
+            <div class="projet-2" id="projet-2">
+                <video autoplay muted>  <!--controls si on veut pourvor faire pause  & loop & poster-->
+                    <source src="../../CREATIONS/Audiovisuel/2024/animation_papirusse_tribuns_02_acceleree_1_422.mov" type="video/mp4">
+                    Votre navigateur ne supporte pas ce format de vidéo.
+                </video>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function playVideo(videoId, posterId) {
+            const video = document.getElementById(videoId);
+            const poster = document.getElementById(posterId);
+            // poster.style.opacity = '0'; // Make the poster image transparent
+            video.play();
+        }
+
+        function pauseVideo(videoId, posterId) {
+            const video = document.getElementById(videoId);
+            const poster = document.getElementById(posterId);
+            // poster.style.opacity = '1'; // Make the poster image visible
+            // video.style.opacity = '0'; // Make the poster image visible
+            video.pause();
+        }
+    </script>
+    <script src="../../JS/footer.js"></script>
+</body>
+
+</html>

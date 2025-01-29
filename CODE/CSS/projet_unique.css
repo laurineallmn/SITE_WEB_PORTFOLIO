@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 238, 226);
+}
+
+.titre {
+    margin: 1vw;
+}
+
+h1 {
+    font-family: Montserrat, Helvetica;
+    color: rgb(15, 15, 15);
+}
+
+h2 {
+    font-family: Montserrat, Helvetica;
+    color: rgb(15, 15, 15);
+}
+
+h5 {
+    font-family: Montserrat, Helvetica;
+    color: rgb(15, 15, 15);
+}
+
+p {
+    font-family: Montserrat, Helvetica;
+    color: rgb(15, 15, 15);
+}
+
+.projet {
+    display: flex;
+    justify-content: center;
+    /* padding: 5vw; */
+}
+
+video {
+    width: 50%;
+}
+
+.date {
+    margin-bottom: 1vw;
+}
+
+.infos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: 3vw; */
+    margin-top: 3vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 2vw;
+    background-color: rgba(44, 44, 44, 0.876);
+}

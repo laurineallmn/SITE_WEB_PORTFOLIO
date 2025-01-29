@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(30, 30, 30, 1);
+}
+
+.titre {
+    text-align: center;
+    margin: 3vw;
+    color: bisque;
+}
+
+img {
+    vertical-align: middle;
+    /* order: -1; */
+}
+
+
+/* intercalaire, sommaire */
+
+.page-sommaire {
+    display: flex;
+    width: 66vw;
+    padding: 1vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page-sommaire p {
+    color: #000;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.page-sommaire p:hover {
+    cursor: pointer;
+    /* font-weight: bold; */
+    transition: all .5s
+}
+
+.tout-page {
+    /* background-color: rgb(144, 144, 144); */
+    background-color: rgb(82, 149, 151);
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px rgb(19, 19, 19);
+}
+
+.portrait-page,
+.artistique-page {
+    background-color: rgb(144, 144, 144);
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px rgb(19, 19, 19);
+}
+
+#bouton-tout {
+    font-weight: bold;
+}
+
+.photographie-projects-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.photographie-projects-container p {
+    color: #000;
+}
+
+
+/* containers */
+
+.contenu-tout-projets {
+    display: flex;
+    margin: auto;
+    background-color: rgb(72, 116, 134);
+    width: 66vw;
+    padding: 4vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+.contenu-portrait-projets,
+.contenu-artistique-projets {
+    display: none;
+    background-color: cadetblue;
+    width: 66vw;
+    padding: 4vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 40vw;
+    /* padding-bottom: 5vw; */
+    /* height: 80vw; */
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+.mySlides2 {
+    display: none;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 13vw;
+    width: auto;
+    padding: 1.5vw;
+    /* margin-top: -50px; */
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .5s;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-name: disparition;
+    animation-iteration-count: 1;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5vw;
+    padding: 1.5vw 2vw;
+    position: absolute;
+    top: 0;
+    opacity: 0%;
+}
+
+@keyframes disparition {
+    from {
+        opacity: 0%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+    }
+}
+
+
+/* Container for image text */
+
+
+/* .caption-container {
+    text-align: center;
+    background-color: rgb(182, 126, 126);
+    padding: 0.2vw 2vw;
+    color: white;
+} */
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-area: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* flex-direction: row; */
+    margin-top: 3vw;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* ANCIEN CODE */
+
+
+/* .row {
+    margin-top: 3vw;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+
+/* Six columns side by side */
+
+
+/* .column {
+    display: relative;
+    float: left;
+    width: 23.33vw;
+} */
+
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+    opacity: 0.6;
+}
+
+
+/* .demo2 {
+    opacity: 0.6;
+} */
+
+.active,
+.demo:hover {
+    opacity: 1;
+    transition: all .5s;
+}
+
+
+/* .active2,
+.demo2:hover {
+    opacity: 1;
+    transition: all .5s;
+} */

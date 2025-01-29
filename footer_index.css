@@ -1,0 +1,33 @@
+/* * {  on remet les valeur par défaut à 0 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+}
+
+.footer-container * {
+    margin: 0.2vw;
+}
+
+.footer-container img {
+    width: 2vw;
+}
+
+h3 {
+    font-family: Montserrat, Helvetica;
+    color: rgb(20, 20, 20);
+}
+
+p {
+    font-family: Montserrat, Helvetica;
+    color: rgb(20, 20, 20);
+}
