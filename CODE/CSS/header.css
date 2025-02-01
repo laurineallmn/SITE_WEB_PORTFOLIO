@@ -35,15 +35,15 @@ header {
     box-shadow: 0px 5px 10px rgba(39, 39, 39, 0.767);
 }
 
-.projets-menu {
+.projets-menu-header {
     /* padding-left: 40vw; */
-    margin-left: 35vw;
+    margin-left: 25vw;
     margin-right: 0vw;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.projets-menu a {
+.projets-menu-header a {
     font-size: 1.vw;
 }
 
@@ -60,13 +60,19 @@ header {
     transition: 0.4s;
 }
 
-#audiovisuel:hover {
+.projets-menu-header #threed-motion-design:hover {
+    color: rgb(226, 136, 33);
+    font-size: 1.02vw;
+    transition: 0.4s;
+}
+
+.projets-menu-header #audiovisuel:hover {
     color: rgb(206, 112, 209);
     font-size: 1.02vw;
     transition: 0.4s;
 }
 
-#photographie:hover {
+.projets-menu-header #photographie:hover {
     color: rgb(46, 173, 190);
     font-size: 1.02vw;
     transition: 0.4s;

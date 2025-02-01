@@ -7,7 +7,8 @@ document.write('\
         <div>\
             <a href="./index.html" class="themes-menu" id="accueil">ACCUEIL</a>\
         </div>\
-        <div class="projets-menu">\
+        <div class="projets-menu-header">\
+        <a href="./CODE/HTML/3d-motion_design.html" class="themes-menu" id="threed-motion-design">3D / MOTION DESIGN</a>\
             <a href="./CODE/HTML/audiovisuel.html" class="themes-menu" id="audiovisuel">AUDIOVISUEL</a>\
             <a href="./CODE/HTML/photographie.html" class="themes-menu" id="photographie">PHOTOGRAPHIE</a>\
         </div>\
