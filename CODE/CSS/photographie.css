@@ -9,6 +9,7 @@ body {
 }
 
 .titre {
+    font-family: Montserrat, Helvetica;
     text-align: center;
     margin: 3vw;
     color: bisque;

@@ -45,14 +45,14 @@ body {
     font-weight: bold;
 }
 
-.audiovisuel-projects-container {
+.threed-motion-design-projects-container {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
 }
 
-.audiovisuel-projects-container p {
+.threed-motion-design-projects-container p {
     color: #000;
 }
 
@@ -68,10 +68,8 @@ body {
     box-shadow: 0px 5px 10px rgb(19, 19, 19);
 }
 
-.court-metrage-page,
-.clip-page,
-.motion-design-page,
-.entreprise-page {
+.threed-page,
+.motion-design-page {
     background-color: rgb(144, 144, 144);
     /* border-top-left-radius: 1rem;
     border-top-right-radius: 1rem; */
@@ -97,10 +95,8 @@ body {
     margin-bottom: 4vw;
 }
 
-.contenu-motion-design-projets,
-.contenu-court-metrage-projets,
-.contenu-clip-projets,
-.contenu-entreprise-projets {
+.contenu-threed-projets,
+.contenu-motion-design-projets {
     display: none;
     /* background-color: rgb(163, 149, 167); */
     /* border-radius: 1rem; */
@@ -110,7 +106,7 @@ body {
     margin-bottom: 4vw;
 }
 
-.audiovisuel-projects-container img:hover {
+.threed-motion-design-projects-container img:hover {
     /* width: 90%; */
     opacity: 0.5;
     transition: all .5s;

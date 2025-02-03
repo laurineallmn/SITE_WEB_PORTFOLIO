@@ -9,7 +9,7 @@ document.write('\
     <a href="../../index.html" class="themes-menu" id="accueil">ACCUEIL</a>\
     </div>\
     <div class="projets-menu-header">\
-        <a href="./HTML/3d-motion_design.html" class="themes-menu" id="threed-motion-design">3D / MOTION DESIGN</a>\
+        <a href="../HTML/3D_motion_design.html" class="themes-menu" id="threed-motion-design">3D / MOTION DESIGN</a>\
         <a href="../HTML/audiovisuel.html" class="themes-menu" id="audiovisuel">AUDIOVISUEL</a>\
         <a href="../HTML/photographie.html" class="themes-menu" id="photographie">PHOTOGRAPHIE</a>\
     </div>\

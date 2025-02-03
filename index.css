@@ -106,32 +106,6 @@ h3:hover {
     transition: 0.4s;
 }
 
-
-/* #projets-menu-index {
-margin: auto;
-} */
-
-
-/* .projets-menu-index {
-    display: flex;
-    order: 2;
-    justify-content: space-between;
-    align-content: center;
-    margin-right: 25%;
-    margin-left: 25%;
-    padding-top: 3vw;
-} */
-
-
-/* .box-projets-menu-index {
-    background-color: rgba(44, 44, 44, 0.705);
-    border-radius: 3vw;
-    border-style: solid;
-    border-width: thin;
-    border-color: aliceblue;
-    font-family: Montserrat, Helvetica;
-} */
-
 .box-projets-menu-index:hover {
     background-color: rgba(240, 248, 255, 0.342);
     border-width: medium;
@@ -167,11 +141,6 @@ margin: auto;
     /* Make entire area clickable */
     padding: 0.2vw 0.5vw;
 }
-
-
-/* .projets-menu-index a {
-    text-decoration: none;
-} */
 
 p {
     font-family: Montserrat, Helvetica;
@@ -235,76 +204,6 @@ width: 1.5vw;
     padding-right: 5vw;
     box-shadow: 0px 5px 10px rgba(19, 19, 19, 0.322);
 }
-
-.creations-container {
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    padding: 5vw
-}
-
-
-/* .grille-creations-container {
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-grid-template-areas: "audiovisuel photogrpahie danse";
-grid-gap: 3vw 5vw;
-} */
-
-.grille-creations-container {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    border-radius: 1rem;
-    width: 66vw;
-    padding: 3vw;
-}
-
-.grille-creations-container p {
-    font-size: 1.5vw;
-}
-
-.audiovisuel-container {
-    /* grid-area: audiovisuel; */
-    background-color: rgba(15, 15, 15, 0.2);
-    border-width: 1vw;
-    box-shadow: rgba(0, 0, 0, 0.2);
-    padding: 5vw;
-    margin: 5vw;
-}
-
-.audiovisuel-container:hover {
-    background-color: rgba(217, 159, 219, 0.644);
-    transition: 0.4s;
-}
-
-.photographie-container {
-    /* grid-area: photographie; */
-    background-color: rgba(15, 15, 15, 0.2);
-    border-width: 1vw;
-    box-shadow: rgba(0, 0, 0, 0.2);
-    padding: 5vw;
-    margin: 5vw;
-}
-
-.photographie-container:hover {
-    background-color: rgb(46, 173, 190, 0.644);
-    transition: 0.4s;
-}
-
-
-/* .danse-container {
-background-color: rgba(0, 0, 0, 0.2);
-border-width: 1vw;
-box-shadow: rgba(0, 0, 0, 0.2);
-padding: 2vw;
-} */
-
-
-/* .danse-container:hover {
-background-color: rgba(211, 121, 5, 0.644);
-transition: 0.4s;
-} */
 
 @media screen and (max-width: 500px) {
     /* h1 {
