@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photographie</title>
+    <title>Photography</title>
     <!-- <link rel="stylesheet" href="./Audiovisuel.css" /> -->
     <link rel="stylesheet" href="../CSS/header.css" />
     <link rel="stylesheet" href="../CSS/footer.css" />
@@ -18,7 +19,7 @@
 <body>
     <script src="../JS/header.js"></script>
     <div class="titre">
-        <h1>PHOTOGRAPHIE</h1>
+        <h1>PHOTOGRAPHY</h1>
     </div>
 
     <!-- <link rel="stylesheet" href="header.css" />
@@ -27,13 +28,13 @@
     <div class="photographie-projects-container">
         <div class="page-sommaire">
             <div class="tout-page" id="tout-page">
-                <p id="bouton-tout" onclick="onClick('tout')">Tout</p>
+                <p id="bouton-tout" onclick="onClick('tout')">All</p>
             </div>
             <div class="portrait-page" id="portrait-page">
                 <p id="bouton-portrait" onclick="onClick('portrait')">Portrait</p>
             </div>
             <div class="mode-page" id="mode-page">
-                <p id="bouton-mode" onclick="onClick('mode')">Mode</p>
+                <p id="bouton-mode" onclick="onClick('mode')">Fashion</p>
             </div>
             <!-- <div class="paysage-page" id="paysage-page">
                 <p id="bouton-paysage" onclick="onClick('paysage')">Paysage</p>
@@ -42,7 +43,7 @@
                 <p id="bouton-paysage" onclick="onClick('paysage')">Concerts</p>
             </div>
             <div class="artistique-page" id="artistique-page">
-                <p id="bouton-artistique" onclick="onClick('artistique')">Artistique</p>
+                <p id="bouton-artistique" onclick="onClick('artistique')">Artistic</p>
             </div>
             <!-- <div class="retouche-page" id="publicite-page">
                 <p id="bouton-publicite" onclick="onClick('publicite')">Publicité</p>
@@ -52,8 +53,41 @@
 
         <div class="contenu-tout-projets" id="contenu-tout-projets">
             <div class="container">
-
                 <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Vladimir_Chauchemar/HM2A6716.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Stephen_Di_Tordo/HM2A7055.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Stephen_Di_Tordo/HM2A7112.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Therese/HM2A7390.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Vladimir_Chauchemar/HM2A6618.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/photo_auriane_ete_2022_4_4-5.jpg" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/2025/portrait_Marie.jpg" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/2025/portrait_artistique_athena_flou.jpg" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_veste_auriane_2024/496A8118.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_robe_auriane_2023/HM2A7081.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+                <!-- <div class="row">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3922_carre.JPG" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
                     </div>
@@ -69,8 +103,8 @@
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3935_carre.JPG" style="width:100%" onclick="currentSlide(5)" alt="Reunion Portrait">
                     </div>
-                </div>
-                <div class="row">
+                </div> -->
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/shooting_photo_c_2.jpg" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
                     </div>
@@ -80,99 +114,88 @@
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/shooting_photo_c_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Reunion Portrait">
                     </div>
-                    <div class="column">
+                    <!-- <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/shooting_photo_c_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
                     </div>
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/shooting_photo_c_5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Reunion Portrait">
-                    </div>
+                    </div> -->
                 </div>
 
 
-                <div class="column">
-                    <div class="row">
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5649_mvt_isaure_3_crop.JPG" style="width:100%" alt="Reunion">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5689_danse_alice.JPG" style="width:100%" alt="Reunion">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5667_mvt_isaure_2.JPG" style="width:100%" alt="Reunion">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5788_neon_romain_1_crop.JPG" style="width:100%" alt="Reunion">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5800_neon_romain_2_crop_2.JPG" style="width:100%" alt="Reunion">
-                        </div>
+
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5649_mvt_isaure_3_crop.JPG" style="width:100%" alt="Reunion">
                     </div>
-                    <div class="row">
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5242_Isaure_4-5.JPG" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5340_Moe_4-5.JPG" style="width:100%" onclick="currentSlide(2)" alt="Reunion Portrait">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5168_Romain_4-5.jpg" style="width:100%" onclick="currentSlide(3)" alt="Reunion Portrait">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5262_Alice.JPG" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5909.JPG" style="width:100%" onclick="currentSlide(5)" alt="Reunion Portrait">
-                        </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5689_danse_alice.JPG" style="width:100%" alt="Reunion">
                     </div>
-                    <div class="row">
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A4019.JPG" style="width:100%" alt="Reunion Paysage">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A4108.JPG" style="width:100%" alt="Reunion Paysage">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A4070.JPG" style="width:100%" alt="Reunion Paysage">
-                        </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5667_mvt_isaure_2.JPG" style="width:100%" alt="Reunion">
                     </div>
-                    <div class="row">
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A3819.JPG" style="width:100%" alt="Reunion Paysage">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A4091.JPG" style="width:100%" alt="Reunion Paysage">
-                        </div>
-                        <div class="column">
-                            <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A3871_orange.JPG" style="width:100%" alt="Reunion Paysage">
-                        </div>
+                </div>
+                <div class="row" style="grid-template-columns: repeat(4, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5788_neon_romain_1_crop.JPG" style="width:100%" alt="Reunion">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5262_Alice.JPG" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5800_neon_romain_2_crop_2.JPG" style="width:100%" alt="Reunion">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5909.JPG" style="width:100%" onclick="currentSlide(5)" alt="Reunion Portrait">
+                    </div>
+                </div>
+
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5242_Isaure_4-5.JPG" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5340_Moe_4-5.JPG" style="width:100%" onclick="currentSlide(2)" alt="Reunion Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5168_Romain_4-5.jpg" style="width:100%" onclick="currentSlide(3)" alt="Reunion Portrait">
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A4019.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A4108.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A4070.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A3819.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A4091.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Paysage/HM2A3871_orange.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
                 </div>
             </div>
         </div>
 
 
+
         <div class="contenu-portrait-projets" id="contenu-portrait-projets">
             <div class="container">
 
-                <div class="row">
-                    <div class="column">
-                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3922_carre.JPG" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3935_carre.JPG" style="width:100%" onclick="currentSlide(5)" alt="Reunion Portrait">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3898_carre_chaleureux.JPG" style="width:100%" onclick="currentSlide(2)" alt="Reunion Portrait">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3910_carre_orange.JPG" style="width:100%" onclick="currentSlide(3)" alt="Reunion Portrait">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3882_carre.JPG" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
-                    </div>
-                </div>
 
-                <div class="row">
+                <!-- ESME -->
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5242_Isaure_4-5.JPG" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
                     </div>
@@ -183,7 +206,8 @@
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5168_Romain_4-5.jpg" style="width:100%" onclick="currentSlide(3)" alt="Reunion Portrait">
                     </div>
                 </div>
-                <div class="row" style="grid-template-columns: repeat(2, 1fr); margin-top: 0vw;">
+
+                <div class="row" style="grid-template-columns: repeat(2, 1fr);">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5262_Alice.JPG" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
                     </div>
@@ -191,7 +215,8 @@
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A5909.JPG" style="width:100%" onclick="currentSlide(5)" alt="Reunion Portrait">
                     </div>
                 </div>
-                <div class="row">
+                <!-- CHLOE -->
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/shooting_photo_c_2.jpg" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
                     </div>
@@ -202,7 +227,7 @@
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/shooting_photo_c_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Reunion Portrait">
                     </div>
                 </div>
-                <div class="row" style="grid-template-columns: repeat(2, 1fr); margin-top: 0vw;">
+                <div class="row" style="grid-template-columns: repeat(2, 1fr); ">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/shooting_photo_c_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
                     </div>
@@ -210,7 +235,8 @@
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/shooting_photo_c_5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Reunion Portrait">
                     </div>
                 </div>
-                <div class="row">
+                <!-- Auriane neige -->
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/portrait_contre_plongee_auriane_4-5.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
                     </div>
@@ -220,10 +246,11 @@
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/photo_ecrasement_4-5.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Reunion Portrait">
                     </div>
-                    <div class="column">
+                    <!-- <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/portrait_auriane_1.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
-                    </div>
+                    </div> -->
                 </div>
+                <!-- auriane cogolin -->
                 <div class="row" style="grid-template-columns: repeat(2, 1fr);">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/photo_auriane_ete_2022_4_4-5.jpg" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
@@ -232,12 +259,30 @@
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/photo_auriane_ete_2022_3_4-5.jpg" style="width:100%" onclick="currentSlide(3)" alt="Reunion Portrait">
                     </div>
                 </div>
-                <div class="row" style="grid-template-columns: repeat(2, 1fr); margin-top: 0vw;">
+                <div class="row" style="grid-template-columns: repeat(2, 1fr); ">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/photo_auriane_ete_2022_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Reunion Portrait">
                     </div>
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/photo_auriane_ete_2022_1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
+                    </div>
+                </div>
+                <!-- auiriane ile reunion -->
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3922_carre.JPG" style="width:100%" onclick="currentSlide(4)" alt="Reunion Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3935_carre.JPG" style="width:100%" onclick="currentSlide(5)" alt="Reunion Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3898_carre_chaleureux.JPG" style="width:100%" onclick="currentSlide(2)" alt="Reunion Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3910_carre_orange.JPG" style="width:100%" onclick="currentSlide(3)" alt="Reunion Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Portrait/HM2A3882_carre.JPG" style="width:100%" onclick="currentSlide(1)" alt="Reunion Portrait">
                     </div>
                 </div>
             </div>
@@ -256,9 +301,6 @@
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_robe_auriane_2023/HM2A6948.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
-                </div>
-
-                <div class="row">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_robe_auriane_2023/HM2A7081.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
@@ -268,8 +310,7 @@
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_robe_auriane_2023/HM2A7282_recadre.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
-                </div>
-                <div class="row">
+
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_robe_auriane_2023/HM2A6574.JPG" style="width:100%" alt="Robe rouge">
                     </div>
@@ -279,9 +320,44 @@
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_robe_auriane_2023/HM2A6444_recadre_retouche.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_veste_auriane_2024/496A8118.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_veste_auriane_2024/496A8210.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_veste_auriane_2024/496A8306.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_veste_auriane_2024/496A8114.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_veste_auriane_2024/496A7976.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/shooting_veste_auriane_2024/496A8053.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
 
                 </div>
+                <div class="row" style="grid-template-columns: repeat(1, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/objets/2025/Eilish_perfum.jpg" style="width:100%" alt="Reunion Paysage">
+                    </div>
 
+                </div>
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/Bijoux_auriane_2023_10/496A0107.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/objets/2025/serum_chanel.jpg" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/Bijoux_auriane_2023_10/496A0108.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
                 <div class="row" style="grid-template-columns: repeat(2, 1fr);">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/Bijoux_auriane_2023_10/496A0105.JPG" style="width:100%" alt="Reunion Paysage">
@@ -291,29 +367,22 @@
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/Bijoux_auriane_2023_10/496A0106.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="column">
-                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/Bijoux_auriane_2023_10/496A0107.JPG" style="width:100%" alt="Reunion Paysage">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="../../CREATIONS/Photographie/Mode/Bijoux_auriane_2023_10/496A0108.JPG" style="width:100%" alt="Reunion Paysage">
-                    </div>
-                </div>
+
             </div>
         </div>
 
         <div class="contenu-paysage-projets" id="contenu-paysage-projets">
             <!-- concert -->
             <div class="container">
-                <div class="row" style="grid-template-columns: repeat(2, 1fr);">
+                <!-- Vladimir cauchemar -->
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Vladimir_Chauchemar/HM2A6716.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Vladimir_Chauchemar/HM2A6777.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
-                </div>
-                <div class="row" style="grid-template-columns: repeat(1, 1fr);">
+
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Vladimir_Chauchemar/HM2A6618.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
@@ -327,6 +396,58 @@
                 <div class="row" style="grid-template-columns: repeat(1, 1fr);">
                     <div class="column">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Vladimir_Chauchemar/HM2A6557_recadre_2.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+                <!-- Stephen di tordo -->
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Stephen_Di_Tordo/HM2A7055.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Stephen_Di_Tordo/HM2A7112.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Stephen_Di_Tordo/HM2A7105.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+                <div class="row" style="grid-template-columns: repeat(1, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Stephen_Di_Tordo/HM2A7089.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+                <div class="row" style="grid-template-columns: repeat(1, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Stephen_Di_Tordo/HM2A7164.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+
+                <!-- Therese -->
+                <div class="row" style="grid-template-columns: repeat(3, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Therese/HM2A7486.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Therese/HM2A7390.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Therese/HM2A7499.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+                <div class="row" style="grid-template-columns: repeat(1, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Therese/HM2A7483.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+                <div class="row" style="grid-template-columns: repeat(1, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Therese/HM2A7467.JPG" style="width:100%" alt="Reunion Paysage">
+                    </div>
+                </div>
+                <div class="row" style="grid-template-columns: repeat(1, 1fr);">
+                    <div class="column">
+                        <img class="demo cursor" src="../../CREATIONS/Photographie/Concerts/Therese/HM2A7514.JPG" style="width:100%" alt="Reunion Paysage">
                     </div>
                 </div>
                 <!-- <div class="row" style="grid-template-columns: repeat(2, 1fr);">
@@ -418,10 +539,12 @@
                 </div> -->
 
                 <div class="column">
-                    <div class="row">
+                    <div class="row" style="grid-template-columns: repeat(3, 1fr);">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5649_mvt_isaure_3_crop.JPG" style="width:100%" alt="Reunion">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5689_danse_alice.JPG" style="width:100%" alt="Reunion">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5667_mvt_isaure_2.JPG" style="width:100%" alt="Reunion">
+                    </div>
+                    <div class="row" style="grid-template-columns: repeat(2, 1fr);">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5788_neon_romain_1_crop.JPG" style="width:100%" alt="Reunion">
                         <img class="demo cursor" src="../../CREATIONS/Photographie/Artistique/HM2A5800_neon_romain_2_crop_2.JPG" style="width:100%" alt="Reunion">
                     </div>
