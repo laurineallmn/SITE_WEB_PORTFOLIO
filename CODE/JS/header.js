@@ -6,16 +6,16 @@ document.write('\
 <header>\
 <div class="header-container">\
     <div>\
-    <a href="../../index.html" class="themes-menu" id="accueil">ACCUEIL</a>\
+    <a href="../../index.html" class="themes-menu" id="accueil">HOME</a>\
     </div>\
     <div class="projets-menu-header">\
         <a href="../HTML/3D_motion_design.html" class="themes-menu" id="threed-motion-design">3D / MOTION DESIGN</a>\
-        <a href="../HTML/audiovisuel.html" class="themes-menu" id="audiovisuel">AUDIOVISUEL</a>\
-        <a href="../HTML/photographie.html" class="themes-menu" id="photographie">PHOTOGRAPHIE</a>\
+        <a href="../HTML/audiovisuel.html" class="themes-menu" id="audiovisuel">VIDEO</a>\
+        <a href="../HTML/photographie.html" class="themes-menu" id="photographie">PHOTOGRAPHY</a>\
     </div>\
     <div class="cv">\
         <a href="../../DOCUMENT/CV_Laurine_ALLEMON.pdf" download>\
-            <p>Mon CV</p>\
+            <p>My resume</p>\
         </a>\
     </div>\
 </div>\
